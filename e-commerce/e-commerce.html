@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Product Page</title>
+  <link rel="stylesheet" href="e-commerce.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>E-commerce</h2>
+    </div>
+
+    <div class="controls">
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Beauty">Beauty</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Sports">Sports</option>
+        </select>
+
+        <select id="sortOption">
+            <option value="">Sort By</option>
+            <option value="priceAsc">Price: Low to High</option>
+            <option value="priceDesc">Price: High to Low</option>
+            <option value="nameAsc">Name: A-Z</option>
+            <option value="nameDesc">Name: Z-A</option>
+            <option value="ratingAsc">Rating: Low to High</option>
+            <option value="ratingDesc">Rating: High to Low</option>
+        </select>
+    </div>
+
+    <div class="product">
+        <div class="category">
+            <img src="smartphone.jpg" alt="Smartphone">
+            <span>Electronics</span>
+            <h3>Smartphone</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            59999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="lipstick.jpg" alt="Lipstick">
+            <span>Beauty</span>
+            <h3>Lipstick</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">4.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="shoes.jpg" alt="Shoes">
+            <span>Fashion</span>
+            <h3>Shoes</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            35999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="cricket.jpg" alt="Cricket Bat">
+            <span>Sports</span>
+            <h3>Cricket Bat</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="rating-text">5.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            19999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="laptop.jpg" alt="Laptop">
+            <span>Electronics</span>
+            <h3>Laptop</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">4.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            79999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="wallet.jpg" alt="Wallet">
+            <span>Accessories</span>
+            <h3>Wallet</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">3.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            11999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="perfume.jpg" alt="Perfume">
+            <span>Beauty</span>
+            <h3>Perfume</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            14999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="shirt.jpg" alt="Shirt">
+            <span>Fashion</span>
+            <h3>Shirt</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">4.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            899
+            <p>ADD</p>
+        </div>
+
+
+        <div class="category">
+            <img src="football.jpg" alt="Football">
+            <span>Sports</span>
+            <h3>Football</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">3.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            499
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="earbuds.jpg" alt="Earbuds">
+            <span>Electronics</span>
+            <h3>Earbuds</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="kurta.jpg" alt="Kurta">
+            <span>Fashion</span>
+            <h3>Kurta</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">4.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            599
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="watches.jpg" alt="Watches">
+            <span>Accessories</span>
+            <h3>Watches</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            29999
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="facewash.jpg" alt="Facewash">
+            <span>Beauty</span>
+            <h3>Facewash</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">4.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            699
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="belt.jpg" alt="Belt">
+            <span>Accessories</span>
+            <h3>Belt</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            899
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="hockey.jpg" alt="Hockey">
+            <span>Sports</span>
+            <h3>Hockey</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="rating-text">3.0</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            299
+            <p>ADD</p>
+        </div>
+
+        <div class="category">
+            <img src="studs.jpg" alt="Studs">
+            <span>Sports</span>
+            <h3>Studs</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-text">4.5</span>
+            </div>
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            999
+            <p>ADD</p>
+        </div>
+
+
+    </div>
+
+    <script src="e-commerce.js"></script>
+</body>
+</html>
